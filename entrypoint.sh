@@ -4,7 +4,7 @@
 gitlab-runner register \
 --non-interactive \
 --executor shell \
---tag-list ${TAG_LIST}\ 
+--tag-list ${TAG_LIST} \ 
 --locked=false
 
 # Get Runner Token
